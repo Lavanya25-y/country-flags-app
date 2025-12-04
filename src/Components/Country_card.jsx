@@ -44,7 +44,7 @@ export default function CountryCard(){
         setCountries(jsonRes);
 
        } catch (error) {
-       console.error("Error fetching data")
+       console.error("Error fetching data: ")
        }
     }
        fetchCountries();
